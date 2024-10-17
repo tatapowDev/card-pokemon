@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section class="container">
+        <div class="pokemon">
+            <h1 class="name"></h1>
+
+            <ol>
+                <li id="type"></li>
+                <li id="number"></li>
+            </ol>
+            <div>
+                
+            </div>
+        </div>
+
+        <div class="detail">
+            <div class="personagem">
+                <img src="#" class="pokemon-photo">
+            </div>
+
+            <div class="description">
+                <div class="titulo">
+                   <ol>
+                    <li> Especie:</li>
+                    <li>Altura:</li>
+                    <li>Peso:</li>
+                    <li>Habilidades:</li>
+                   </ol>
+                </div>
+
+                <div class="dado">
+                    <ol>
+                        <li id="especie"> </li>
+                        <li id="altura"></li>
+                        <li id="peso"></li>
+                        <li id="habilidade"></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="description2">
+                <div class="titulo2">
+                   <ol>
+                    <li> HP:</li>
+                    <li> Ataque:</li>
+                    <li> Defesa:</li>
+                    <li>Ataque Especial:</li>
+                   </ol>
+                </div>
+
+                <div class="dado2">
+                    <ol>
+                        <li id="hp"> </li>
+                        <li id="ataque"></li>
+                        <li id="defesa"></li>
+                        <li id="atcespecial"></li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="selecionar">
+                <input type="number" id="dataInput">
+                <button onclick="chamaPokemon()">Clique aqui</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
